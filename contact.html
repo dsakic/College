@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="HTML,CSS">
+    <meta name="author" content="Denis Sakic">
+    <meta name="description" content="projektni_zadatak">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="site-content">
+        <header>
+            <div class="banner">
+                <img class="banner-image" src="images/example.jpg">
+            </div>
+
+            <div class="menu clearfix">
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="home.html"><i class="fa fa-fw fa-home"></i> Home</a></li>
+                        <li><a href="news.html"><i class="fa fa-fw fa-globe"></i> News</a></li>
+                        <li><a href="contact.html"><i class="fa fa-fw fa-envelope"></i> Contact</a></li>
+                        <li><a href="about.html"><i class="fa fa-fw fa-address-card"></i> About</a></li>
+                        <li><a href="gallery.html"><i class="fa fa-fw fa-camera"></i> Gallery</a></li>
+                    </ul>
+                </nav>
+
+                <div class="navbarRight">
+                    <a href="https://www.facebook.com/" class="fa fa-facebook" title="facebook"></a>
+                    <a href="https://www.twitter.com/" class="fa fa-twitter" title="twitter"></a>
+                    <a href="https://www.google.com/" class="fa fa-google" title="google"></a>
+                    <a href="https://www.linkedin.com/" class="fa fa-linkedin" title="linkedin"></a>
+                    <a href="https://www.skype.com/" class="fa fa-skype" title="skype"></a>
+                </div>
+            </div>
+        </header>
+    
+        <div class="main-content">
+
+            <h1>Contact Us</h1>
+
+            <div class="form">
+                <form action="" method="POST">
+            
+                    <label for="firstname">First Name</label>
+                    <input type="text" placeholder="Your name..">
+                
+                    <label for="lastname">Last Name</label>
+                    <input type="text" placeholder="Your last name..">
+                
+                    <label for="country">Country</label>
+                    <select id="country" name="country">
+                    <option value="none">---</option>
+                    <option value="Croatia">CRO</option>
+                    <option value="Slovenia">SLO</option>
+                    <option value="Italia">ITA</option>
+                    </select>
+                
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" placeholder="Write something.." style="height:200px"></textarea>
+                
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+
+            <div id="googleMap"></div> 
+
+        </div> 
+        
+    </div>
+
+    <footer class="footer">
+        <p>Copyright &reg 2018 Denis Šakić <a href="https://github.com/"><i class="fa fa-fw fa-github"></i></a></p> 
+    </footer>
+
+    <script>
+        function myMap() {
+            var mapProp= {
+                center:new google.maps.LatLng(45.8403496,15.8242449,11),
+                zoom:9,
+            };
+            var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+        }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAprRjFgvmTm0uuISchEL7kxo8lT1dpEUA&callback=myMap"></script>
+</body>
+</html>

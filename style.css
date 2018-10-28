@@ -1,0 +1,302 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.site-content {
+    min-height: 100%;
+    padding-bottom: 80px;
+    background-color: whitesmoke;
+}
+
+.header {
+    position: relative;
+    width: 100%;
+    display: block;
+}
+
+.banner-image {
+    width: 100%;
+    height: 200px;
+    display: block;
+}
+
+/*************
+    main menu
+**************/
+
+.menu {
+    background-color: black;
+    line-height: 1;
+}
+
+.navbar {
+    float: left;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar li {
+    flex: 1 1 auto;
+    text-align: center;
+    padding: 12px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    color: lightgreen;
+}
+
+.navbarRight {
+    float: right;
+    padding: 12px 12px 12px 0;
+    text-align: right;
+    font-size: 0;
+}
+
+.navbarRight a {
+    margin: 0 0 0 15px;
+}
+
+.fa-facebook:hover {
+    color: #3c7bfa;
+}
+
+.fa-twitter:hover {
+    color: #00aced;
+}
+
+.fa-linkedin:hover {
+    color: #0073a4;
+}
+
+.fa-google:hover {
+    color: #e25714;
+}
+
+.fa-skype:hover {
+    color: #0857f5;
+}
+
+.clearfix:after {
+    display: block;
+    content: '\0A0';
+    width: 100%;
+    clear: both;
+    height: 0;
+}
+
+/*************
+    main content
+**************/
+
+.main-content {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 30px 15px 0;
+}
+
+h1 {
+    margin: 0 0 15px;
+}
+
+h2 {
+    color: royalblue;
+    margin: 0 0 15px;
+}
+
+.article1 h2 {
+    padding: 30px 0 0;
+}
+
+.article1 h3 {
+    padding: 0 0 20px ;
+}
+
+.main-content p {
+    padding: 0 0 20px;
+}
+
+.main-content a {
+    text-decoration: none;
+}
+
+figure {
+    float: left;
+    border: 1px solid black; 
+    text-align: center;
+    margin: 0 15px 15px 0;
+    padding: 15px; 
+}
+
+figcaption{
+     padding-top: 5px;
+}
+
+.sidebar-l {
+    float: left;
+    height: 700px;
+    width: 100px;
+    position: sticky;
+    z-index: 1;
+    top: 30px;
+    left: 20px;
+    background-color: #111;
+    overflow-x: hidden;
+    margin-top: 40px;
+}
+
+.sidebar-r {
+    float: right;
+    height: 700px;
+    width: 100px;
+    position: sticky;
+    z-index: 1;
+    top: 30px;
+    right: 20px;
+    background-color: #111;
+    overflow-x: hidden;
+    margin-top: 40px;
+}
+
+.footer {
+    background-color:black;
+    color: white;
+    text-align: center;
+    margin-top: -50px;
+    height: 50px;
+    line-height: 48px;
+}
+
+.footer a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    width: 20px;
+}
+
+.footer a:hover {
+    color: lightgreen;
+}
+
+/*************
+    other content
+**************/
+
+video {
+    float: left;
+    margin: 0 15px 15px 0;
+}
+
+.news-page article {
+    padding-top: 15px;
+    border-top: 1px solid gray;
+}
+
+.news-page h1:first-child + article {
+    border: 0;
+}
+
+.news-page, .article1 a {
+    text-decoration: none;
+}
+
+article .thumbnail {
+    float: left;
+    border: 3px solid #ddd;
+    border-radius: 4px;
+    margin: 0 15px 15px 0;
+    padding: 5px;
+    overflow: hidden;
+}
+
+article .thumbnail:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.article1 article {
+    padding-top: 15px;
+    border-bottom: 1px solid gray;
+}
+
+.article1 figure {
+    float: left;
+}
+
+.gallery figure {
+    flex: 1 auto;
+    float: none;
+}
+
+.gallery {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#googleMap {
+    width: 100%;
+    height: 400px;
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;   
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+}
+
+input[type=submit] {
+    background-color: gray;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: green;
+}
+
+.form {
+    width: 100%;
+    border-radius: 5px;
+    padding: 0 0 20px 0;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .navbarRight {
+      float: none;
+      text-align: center;
+      padding: 12px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .sidebar-l, .sidebar-r {
+        display: none;
+    }
+  }
+
+
+
+
