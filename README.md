@@ -43,7 +43,7 @@ Create the footer of the frontend interface.
 
 We rely on the previous task. Under the HTML5 standard, make the footer of your frontend
 interface. Place the text in the footer as desired, eg Copyright ©
-Use the icons for connecting social networks and links to them as needed. necessarily
+Use the icons for connecting social networks and links to them as needed. Necessarily
 put a link to your Github repository with the picture as it is in the example.
 
 HINT:
@@ -53,7 +53,28 @@ Mandatory elements are html, head, body, header, main, nav, footer
 The page must be adapted to all devices.
 
 # 5 task 
+Create a new page according to the template from previous tasks.
+
+We rely on the previous task. Under the HTML5 standard, create a new document that will
+contain all the elements needed to show 5 articles. Each article must have a small picture
+(thumbnail), title, short text, date of publication, and links to more about this article.
+
+HINT:
+
+Obligatory elements are html, head, body, header, main, nav, footer. 
+
+Links are in the picture, title and more about this article.
+
+The page must be adapted to all devices.
+
 # 6 task
+
+
 # 7 task
+
+
 # 8 task
+
+
 # 9 task
+
