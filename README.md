@@ -1,6 +1,6 @@
 # College
 #
-# This functional web service application is written only with HTML and Css. This project contains nine tasks. 
+# This functional web service application is written only with HTML and CSS. This project contains nine tasks. 
 #
 # 1 task
 Make the main HTML structure according to HTML5 standards.
