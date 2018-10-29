@@ -2,7 +2,7 @@
 #
 # This functional web service application is written only with HTML and CSS. This project contains nine tasks. 
 #
-# First task
+# 1 task
 Make the main HTML structure according to HTML5 standards.
 
 Define the HTML5 declaration, page language, title, meta tag (support for diacritical characters,
@@ -12,7 +12,7 @@ HINT:
 
 Mandatory elements are html, head, body
 
-# Second task 
+# 2 task 
 Create the frontend interface header.
 
 We rely on the previous task. Under the HTML5 standard, create a header that will
@@ -25,7 +25,7 @@ Mandatory elements are html, head, body, header, nav
 
 The page must be adapted to all devices.
 
-# Third task 
+# 3 task 
 Create the main frontend interface.
 
 We rely on the previous task. Under the HTML5 standard, make the main part of the startup
@@ -38,7 +38,7 @@ Mandatory elements are html, head, body, header, nav, main, h1, p, figures, figc
 
 The page must be adapted to all devices.
 
-# Fourth task 
+# 4 task 
 Create the footer of the frontend interface.
 
 We rely on the previous task. Under the HTML5 standard, make the footer of your frontend
@@ -52,7 +52,7 @@ Mandatory elements are html, head, body, header, main, nav, footer
 
 The page must be adapted to all devices.
 
-# Fifth task 
+# 5 task 
 Create a new page according to the template from previous tasks.
 
 We rely on the previous task. Under the HTML5 standard, create a new document that will
@@ -67,14 +67,14 @@ Links are in the picture, title and more about this article.
 
 The page must be adapted to all devices.
 
-# Sixth task
+# 6 task
 Create a new page according to the template from previous tasks.
 
 We rely on the previous task. Under the HTML5 standard, create a new document that will
 contain all of the elements needed to display a picture gallery of an article (images have a description). Article of the sea
 have title, subtitle, minimum 5 paragraphs, date of publication, link back.
 
-# Seventh task
+# 7 task
 Create a new page according to the template from previous tasks.
 
 We rely on the previous task. Under the HTML5 standard, create a new document that will
@@ -92,7 +92,7 @@ E-mail checks whether it is well-recorded.
 
 The page must be adapted to all devices.
 
-# Eighth task
+# 8 task
 Create a new page according to the template from previous tasks.
 
 We rely on the previous task. Under the HTML5 standard, create a new document that will
@@ -105,7 +105,7 @@ Mandatory elements are html, head, body, header, main, nav, footer, figures, fig
 
 The page must be adapted to all devices.
 
-# Ninth task
+# 9 task
 Create a new page according to the template from previous tasks.
 
 We rely on the previous task. Under the HTML5 standard, create a new document that will
