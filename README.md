@@ -13,6 +13,18 @@ HINT:
 Mandatory elements are html, head, body
 
 # 2 task 
+Create the frontend interface header.
+
+We rely on the previous task. Under the HTML5 standard, create a header that will
+contain a banner, which will be absolute or relative width. Determine the links in the header of the fronend
+part (Home, News, Contact, About Us, Gallery)
+
+HINT:
+
+Mandatory elements are html, head, body, header, nav
+
+The page must be adapted to all devices.
+
 # 3 task 
 # 4 task 
 # 5 task 
