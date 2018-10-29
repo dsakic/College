@@ -39,6 +39,19 @@ Mandatory elements are html, head, body, header, nav, main, h1, p, figures, figc
 The page must be adapted to all devices.
 
 # 4 task 
+Create the footer of the frontend interface.
+
+We rely on the previous task. Under the HTML5 standard, make the footer of your frontend
+interface. Place the text in the footer as desired, eg Copyright ©
+Use the icons for connecting social networks and links to them as needed. necessarily
+put a link to your Github repository with the picture as it is in the example.
+
+HINT:
+
+Mandatory elements are html, head, body, header, main, nav, footer
+
+The page must be adapted to all devices.
+
 # 5 task 
 # 6 task
 # 7 task
