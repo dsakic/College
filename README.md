@@ -106,4 +106,15 @@ Mandatory elements are html, head, body, header, main, nav, footer, figures, fig
 The page must be adapted to all devices.
 
 # 9 task
+Create a new page according to the template from previous tasks.
 
+We rely on the previous task. Under the HTML5 standard, create a new document that will
+contain all the elements needed to display the text About Us. The site must contain
+title and minimum 3 passages. It's important that you insert a video element inside the text using it
+HTML5 standards (do not use embed Youtub)
+
+HINT:
+
+Mandatory elements include html, head, body, header, main, video, nav, footer. 
+
+The page must be adapted to all devices.
