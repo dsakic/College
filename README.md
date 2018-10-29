@@ -61,14 +61,18 @@ contain all the elements needed to show 5 articles. Each article must have a sma
 
 HINT:
 
-Obligatory elements are html, head, body, header, main, nav, footer. 
+Mandatory elements are html, head, body, header, main, nav, footer. 
 
 Links are in the picture, title and more about this article.
 
 The page must be adapted to all devices.
 
 # 6 task
+Create a new page according to the template from previous tasks.
 
+We rely on the previous task. Under the HTML5 standard, create a new document that will
+contain all of the elements needed to display a picture gallery of an article (images have a description). Article of the sea
+have title, subtitle, minimum 5 paragraphs, date of publication, link back.
 
 # 7 task
 
