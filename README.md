@@ -75,7 +75,22 @@ contain all of the elements needed to display a picture gallery of an article (i
 have title, subtitle, minimum 5 paragraphs, date of publication, link back.
 
 # 7 task
+Create a new page according to the template from previous tasks.
 
+We rely on the previous task. Under the HTML5 standard, create a new document that will
+contain all the elements needed to display the contact page. The contact page must have a link
+according to google map (see example), form for sending data (form fields - name, surname,
+email address, country - drop-down menu, description.
+
+HINT:
+
+The mandatory elements are html, head, body, header, main, nav, footer, form, input, select.
+
+Mandatory fields in form are name, last name, e-mail address.
+
+E-mail checks whether it is well-recorded.
+
+The page must be adapted to all devices.
 
 # 8 task
 
