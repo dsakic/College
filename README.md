@@ -26,6 +26,18 @@ Mandatory elements are html, head, body, header, nav
 The page must be adapted to all devices.
 
 # 3 task 
+Create the main (main) frontend interface.
+
+We rely on the previous task. Under the HTML5 standard, make the main part of the startup
+pages with content of one title, one subtitle, minimum 3 paragraphs and one image,
+and description of the picture. Use HTML5 content description elements.
+
+HINT:
+
+Mandatory elements are html, head, body, header, nav, main, h1, p, figures, figcaption. 
+
+The page must be adapted to all devices.
+
 # 4 task 
 # 5 task 
 # 6 task
